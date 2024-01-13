@@ -1,0 +1,72 @@
+@media screen and (max-width: 576px) {
+  header nav {
+    padding: 0;
+  }
+
+  header nav .logo {
+    margin: 25px auto;
+  }
+
+  header nav ul {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  header .banner-section {
+    flex-direction: column-reverse;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .banner-image img {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  header .banner-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  header .banner-content h1 {
+    font-size: 2rem;
+  }
+
+  header button {
+    margin: 15px auto;
+  }
+
+  main .sponsor {
+    flex-wrap: wrap;
+  }
+
+  main .popular-collection {
+    grid-template-columns: 340px;
+  }
+
+  main .featured {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 0;
+  }
+
+  main .featured button {
+    margin: 0 auto;
+  }
+
+  main .featured .featured-content h1 {
+    font-size: 24px;
+  }
+
+  main .featured .featured-content p {
+    font-size: 16px;
+    width: auto;
+  }
+
+  main .featured image {
+    width: 80%;
+  }
+
+
+}

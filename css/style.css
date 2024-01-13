@@ -1,0 +1,36 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* 
+body {
+  border: 2px solid red;
+}
+*/
+button {
+  background-color: #E02C6D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.primary {
+  border-radius: 41px;
+}
+
+.discription {
+  color: #3a3a3a;
+  font-weight: 600;
+}

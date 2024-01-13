@@ -1,0 +1,31 @@
+footer {
+  text-align: center;
+  background-color: #0A0826;
+  padding: 50px 0;
+}
+
+footer h1 {
+  font-size: 24px;
+  margin-bottom: 3px;
+  color: white;
+}
+
+footer h3 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #D9DBE1;
+  margin-bottom: 3px;
+}
+
+footer .social {
+  margin-top: 17px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+footer .social img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+header nav {
+  display: flex;
+  padding: 87px 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}
+
+header nav h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header .banner-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+  align-items: center;
+}
+
+header .banner-content {
+  max-width: 582px;
+}
+
+header .banner-content h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #3A3A3A;
+  margin-bottom: 0;
+}
+
+header .banner-image {
+  background-repeat: no-repeat;
+  padding-right: 60px;
+  background-image: url("../images/Circle\ design.svg");
+  padding: 35px;
+}
+
+header button {
+  margin-top: 16px;
+}
